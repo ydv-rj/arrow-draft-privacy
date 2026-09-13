@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arrow Draft — Privacy Policy</title>
+<meta name="description" content="Privacy Policy for the Arrow Draft Android game.">
+<style>
+  :root {
+    --ink: #0e252d;
+    --ink-2: #41575f;
+    --ink-3: #5c7078;
+    --paper: #eff3f4;
+    --paper-2: #ffffff;
+    --rule: #c3cdd1;
+    --accent: #0f6e7c;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e8f0f2;
+      --ink-2: #a8c0c7;
+      --ink-3: #7f9aa3;
+      --paper: #0d1c22;
+      --paper-2: #152a32;
+      --rule: #28444e;
+      --accent: #3fb6c6;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 0 20px 96px;
+    background: var(--paper);
+    color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  main { max-width: 68ch; margin: 0 auto; }
+
+  header {
+    padding: 56px 0 24px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 32px;
+  }
+
+  .eyebrow {
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  h1 {
+    margin: 12px 0 0;
+    font-size: clamp(28px, 6vw, 40px);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  .updated {
+    margin: 12px 0 0;
+    color: var(--ink-3);
+    font-size: 14px;
+  }
+
+  h2 {
+    margin: 40px 0 0;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+  }
+
+  p, li { color: var(--ink-2); }
+  p { margin: 12px 0 0; }
+  ul { margin: 12px 0 0; padding-left: 22px; }
+  li { margin: 6px 0; }
+
+  strong { color: var(--ink); }
+
+  .panel {
+    margin: 28px 0 0;
+    padding: 18px 20px;
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+  }
+
+  .panel p:first-child { margin-top: 0; }
+
+  a { color: var(--accent); }
+
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    color: var(--ink-3);
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">Arrow Draft</p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 2 September 2026</p>
+  </header>
+
+  <div class="panel">
+    <p>
+      <strong>Arrow Draft has no accounts and never asks for your name, email,
+      or any other personal detail.</strong> It does show advertising, and it
+      uses Google Analytics for Firebase to understand how the game is played.
+      This page explains exactly what that involves and how to control it.
+    </p>
+  </div>
+
+  <h2>Information we collect</h2>
+  <p>
+    We do not collect your name, email address, phone number, contacts, photos,
+    or precise location, and there is no account to create or sign in to. The
+    app requests no runtime permissions beyond vibration, which is used only
+    for in-game haptic feedback and can be turned off in Settings.
+  </p>
+  <p>
+    Two Google services do collect limited data on our behalf:
+  </p>
+  <ul>
+    <li>
+      <strong>Google Analytics for Firebase</strong> records anonymous gameplay
+      events — a level being opened, a level being completed and its star
+      rating, and which screen you are on — along with the standard information
+      Firebase collects automatically, such as a random app-instance
+      identifier, device model, operating system version, and approximate
+      (country-level) region. This tells us which levels are too hard and where
+      players stop playing. It is not linked to your identity.
+    </li>
+    <li>
+      <strong>Google AdMob</strong> serves the ads and may use your device's
+      advertising ID and ad interaction data to select ads, measure their
+      performance, and limit how often the same ad is shown. Whether ads are
+      <em>personalised</em> depends on your consent choice — see
+      <a href="#advertising">Advertising and consent</a> below.
+    </li>
+  </ul>
+
+  <h2>Information stored on your device</h2>
+  <p>
+    The game saves your progress locally so you can pick up where you left off.
+    This data never leaves your device and is not transmitted anywhere:
+  </p>
+  <ul>
+    <li>which levels you have completed, and your star rating for each</li>
+    <li>the level you are currently on, including a part-played board</li>
+    <li>your settings: sound, vibration, and dark mode</li>
+    <li>a flag recording that you have seen the introduction</li>
+    <li>the date you first opened the app, used only to keep the game ad-free for an initial period</li>
+  </ul>
+  <p>
+    You can erase all of it at any time by clearing the app's storage in
+    Android Settings, or by uninstalling the app.
+  </p>
+
+  <h2>Network use</h2>
+  <p>
+    Arrow Draft requires an internet connection to play. The app makes these
+    kinds of network request:
+  </p>
+  <ul>
+    <li>
+      a periodic <strong>connectivity check</strong>, used to tell you when your
+      device is offline. It asks a well-known "no content" address
+      (<code>clients3.google.com/generate_204</code>, and
+      <code>cloudflare.com</code> as a fallback) and looks only at whether a
+      reply arrives. No data about you or your play is included.
+    </li>
+    <li><strong>analytics events</strong> sent to Google Analytics for Firebase</li>
+    <li>
+      a <strong>configuration fetch</strong> from Firebase Remote Config, which
+      downloads our advertising settings. It sends no information about you.
+    </li>
+    <li>
+      <strong>ad requests</strong> to Google AdMob, plus the impression and click
+      reporting that goes with them
+    </li>
+    <li>
+      a one-time <strong>consent message</strong> fetch, where privacy law
+      requires us to ask for your choice
+    </li>
+  </ul>
+
+  <h2 id="advertising">Advertising and consent</h2>
+  <p>
+    Ads in Arrow Draft are served by <strong>Google AdMob</strong>. You will
+    see banner ads on the home and level screens, an occasional full-screen ad
+    between levels, and an ad in the panel shown when you finish a level. There
+    is also an optional "watch a video for more lives" ad, which only ever plays
+    if you choose to tap it.
+  </p>
+  <p>
+    For a short period after you first install the game, no ads are shown at all.
+  </p>
+  <p>
+    If you are in the European Economic Area, the United Kingdom, or another
+    region where consent is required, you will be asked once whether you agree
+    to personalised advertising. <strong>Declining does not remove ads</strong> —
+    it means the ads you see are non-personalised, chosen without using your ad
+    interaction history. You can change this choice at any time from
+    <strong>Settings &rarr; Ad Privacy Choices</strong> inside the app.
+  </p>
+  <p>
+    Google may use your device's advertising ID for this. You can reset or delete
+    that ID in your Android settings under <em>Privacy &rarr; Ads</em>. For
+    details on how Google handles this data, see
+    <a href="https://policies.google.com/technologies/partner-sites">How Google
+    uses information from sites or apps that use our services</a> and the list of
+    <a href="https://support.google.com/admob/answer/9012903">advertising
+    technology providers</a>.
+  </p>
+
+  <h2>Third-party services</h2>
+  <p>
+    The app uses the following Google services, and no others. There is no crash
+    reporting, and no social or login integration.
+  </p>
+  <ul>
+    <li>
+      <strong>Google Analytics for Firebase</strong> — anonymous gameplay
+      analytics
+    </li>
+    <li>
+      <strong>Firebase Remote Config</strong> — downloads our advertising
+      settings; collects nothing about you
+    </li>
+    <li><strong>Google AdMob</strong> — serves the advertising described above</li>
+  </ul>
+  <p>
+    All three are operated by Google under the
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and
+    the <a href="https://firebase.google.com/support/privacy">Firebase privacy
+    documentation</a>. If you install the app from Google Play, Google also
+    collects installation and device data under its own policy, which we do not
+    control.
+  </p>
+
+  <h2>Children's privacy</h2>
+  <p>
+    Arrow Draft is a general-audience game. It is not directed at children, is
+    not part of Google Play's Designed for Families programme, and we do not
+    knowingly collect personal information from children under 13.
+  </p>
+  <p>
+    Because the app is not child-directed, its advertising is not configured for
+    child-directed treatment. If you believe a child has provided information
+    through this app, contact us at the address below and we will delete it.
+  </p>
+
+  <h2>Purchases</h2>
+  <p>
+    The current version contains no in-app purchases and no payment processing.
+    Should that change, this policy will be updated before the feature ships.
+  </p>
+
+  <h2>Changes to this policy</h2>
+  <p>
+    If this policy changes, the revised version will be published at this same
+    address with a new "last updated" date. Material changes will also be noted
+    in the app's release notes on Google Play.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about this policy can be sent to
+    <a href="mailto:sb.developer78@gmail.com">sb.developer78@gmail.com</a>.
+  </p>
+
+  <footer>
+    Arrow Draft · Android · package <code>com.arrowgamestudio.arrowdraft</code>
+  </footer>
+</main>
+</body>
+</html>
